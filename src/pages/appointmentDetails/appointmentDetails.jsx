@@ -98,6 +98,7 @@ class AppointmentDetails extends Component {
 
     return (
       <div className="form-wrapper">
+        <div className="form-appoint bg-white p-5 rounded">
         <h1 className="register-title my-3">Appointment Details</h1>
         <Toast
           msg="Appointment Expired. You can book again in 30 days"
@@ -112,7 +113,7 @@ class AppointmentDetails extends Component {
               <td>{appointment.fullName}</td>
             </tr>
             <tr>
-              <th>Identity Number</th>
+              <th>Identification Number</th>
               <td>{appointment.identityNo}</td>
             </tr>
             <tr>
@@ -144,6 +145,7 @@ class AppointmentDetails extends Component {
           </p>
         </div>
       </div>
+    </div>
     );
   }
 }

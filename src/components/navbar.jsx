@@ -36,22 +36,22 @@ function Navbar({ isLoggedIn }) {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li>
-                    <Link to="appointmentDetails" className="dropdown-item">
+                    <Link to="appointmentDetails" className="dropdown-item drop-ul">
                       Book an Appointment
                     </Link>
                   </li>
                   <li>
-                    <Link to="appointmentDetails" className="dropdown-item">
+                    <Link to="appointmentDetails" className="dropdown-item drop-ul">
                       Get Appointment Details
                     </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item drop-ul" href="#">
                       Share Vaccination Status
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item drop-ul" href="#">
                       Download Certificate
                     </a>
                   </li>

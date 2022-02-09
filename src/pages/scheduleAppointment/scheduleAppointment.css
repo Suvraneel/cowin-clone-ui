@@ -12,9 +12,9 @@
   height: 180vh;
 }
 
-.form-card{
-  width: 35%;
-  height: 180vh;
+.form-card-big{
+  width: 35vw;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

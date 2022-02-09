@@ -162,7 +162,7 @@ class ScheduleAppointment extends Component {
     return (
       <div className="flex-1  sc-wrap">
       <div className="form-wrapper h-screen box-content">
-        <div className="form-card">
+        <div className="form-card-big">
           <br/>
         <h1 className="register-title my-3">Schedule an Appointment</h1>
         <Toast msg={this.state.msg} visible={this.state.serverMessage} handleDiscard={this.handleDiscard} />

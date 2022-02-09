@@ -46,7 +46,7 @@ class RegisterUser extends Component {
   render() {
     return (
       <div className="form-wrapper">
-        <div className="heart-wrapper">
+        <div className="heart-wrapper relative top-2">
           <img className="heart-img w-20" src={heart} alt="heart" />
         </div>
         <div className="form-card">

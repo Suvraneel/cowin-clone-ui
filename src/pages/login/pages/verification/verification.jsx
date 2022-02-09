@@ -30,10 +30,9 @@ class Verification extends Component {
       if (response.status === 200) {
         var code = response.data.code;
         this.setState({ isOTPSent: true });
-        // OTP will be sent by SMS, for now response contains the OTP
-        console.log("OTP: " + code);
+        alert("OTP: " + code);
       } else {
-        console.log("Error requesting OTP! " + response.status);
+        alert("Error requesting OTP! " + response.status);
       }
     });
   };
@@ -89,7 +88,7 @@ class Verification extends Component {
     const { isOTPSent } = this.state;
     return (
       <div className="form-wrapper">
-        <div className="heart-wrapper">
+        <div className="heart-wrapper relative top-5">
           <img className="heart-img w-20" src={heart} alt="heart" />
         </div>
         <div className="form-card">

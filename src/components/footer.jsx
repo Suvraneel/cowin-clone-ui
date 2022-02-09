@@ -1,4 +1,5 @@
 import "./styles/footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,15 +9,25 @@ function Footer() {
           <div className="col-md-2 col-6 text-teal-100 text-lg font-bold">
             Vaccination Services
             <br />
+            <Link to="appointmentDetails">
             <a href="">Register Members</a>
+            </Link>
             <br />
+            <Link to="appointmentDetails">
             <a href="">Search Vaccination Centers</a>
+            </Link>
             <br />
+            <Link to="appointmentDetails">
             <a href="">Book Vaccination Slots</a>
+            </Link>
             <br />
+            <Link to="appointmentDetails">
             <a href="">Manage Appointment</a>
+            </Link>
             <br />
+            <Link to="appointmentDetails">
             <a href="">Download Certificate</a>
+            </Link>
           </div>
           <div className="col-md-2 col-6 text-teal-100 text-lg font-bold">
             Platforms
