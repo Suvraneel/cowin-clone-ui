@@ -1,0 +1,28 @@
+.whats-new {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wn-heading {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.tp {
+  background-color: transparent !important;
+  border-right: rgb(23,128,101) !important;
+}
+
+.accordion-item .accordion-header button {
+  font-size: 18px;
+  padding-top: 30px;
+  line-height: 1.4;
+}
+
+.accordion-item .accordion-body {
+  font-size: 15px;
+}
+
+.accordion-button.collapsed {
+  background: rgb(23, 128, 101);
+}
