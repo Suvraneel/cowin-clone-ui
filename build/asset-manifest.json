@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7390096f.css",
+    "main.js": "/static/js/main.120bb0c4.js",
+    "static/js/787.74fd4ef3.chunk.js": "/static/js/787.74fd4ef3.chunk.js",
+    "static/media/carousel1.jpg": "/static/media/carousel1.8f8b11c701eae51c218a.jpg",
+    "static/media/share_illustration.svg": "/static/media/share_illustration.9dec5282fa23c3c0cbe53e66fc76e8e6.svg",
+    "static/media/carousel2.jpg": "/static/media/carousel2.4708c813bbdb4738ef0c.jpg",
+    "static/media/what's_new_on_cowin.svg": "/static/media/what's_new_on_cowin.79f20c8c7b7c097a7afa16419b86c9e5.svg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
+    "static/media/Precaution_dose.svg": "/static/media/Precaution_dose.faf5c7536dd5fd603ced35c2375583bc.svg",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
+    "static/media/partners.png": "/static/media/partners.d01943634131abb25855.png",
+    "static/media/new-logo.svg": "/static/media/new-logo.7487d1eb64a00189ddffc65ee65b05e9.svg",
+    "static/media/login-screen.svg": "/static/media/login-screen.306755e0cb95f848867e9daeb7ba0627.svg",
+    "index.html": "/index.html",
+    "main.7390096f.css.map": "/static/css/main.7390096f.css.map",
+    "main.120bb0c4.js.map": "/static/js/main.120bb0c4.js.map",
+    "787.74fd4ef3.chunk.js.map": "/static/js/787.74fd4ef3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7390096f.css",
+    "static/js/main.120bb0c4.js"
+  ]
+}
